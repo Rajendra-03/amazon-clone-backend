@@ -12,7 +12,7 @@ import com.amazon.clone.repository.UserRepository;
 import com.amazon.clone.service.EmailService;
 import com.amazon.clone.service.OtpService;
 
-@RestController
+//@RestController
 @CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/users")
 public class UserController {
