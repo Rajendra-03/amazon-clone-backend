@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import com.amazon.clone.model.Order;
 import com.amazon.clone.repository.OrderRepository;
 
-//@RestController
+@RestController
 @CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/orders")
 public class OrderController {
